@@ -34,8 +34,8 @@ function SaldoDeVitorias(vitorias, derrotas){
  
  let VencidasPeloJogador = 20
  let PerdidasPeloJogador = 12
- const SaldoVitorias  = SaldoDeVitorias(VencidasPeloJogador, PerdidasPeloJogador)
- const nivel = RankPorVitoria(VencidasPeloJogador)
+ const SaldoVitorias  = SaldoDeVitorias(VencidasPeloJogador, PerdidasPeloJogador) // saldo 8
+ const nivel = RankPorVitoria(VencidasPeloJogador) // nivel ferro
  // SaldoVitorias recebe a função SaldoDeVitorias com os parametros do jogador 
  //nivel recebe a função RankPorVitoria com o parametro de quantas partidas foram vencidas pelo jogador
  console.log("O heroi tem de saldo de " + SaldoVitorias + " e está no nível de "+ nivel)
